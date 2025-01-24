@@ -1,0 +1,56 @@
+{
+  "valid_orders": [
+    {
+      "product_id": 123,
+      "quantity": 10,
+      "delivery_date": "2025-02-10",
+      "price_per_unit": 20.5
+    },
+    {
+      "product_id": 456,
+      "quantity": 5,
+      "delivery_date": "2025-03-15",
+      "price_per_unit": 100.75,
+      "discount_rate": 0.1
+    },
+    {
+      "product_id": 789,
+      "quantity": 1,
+      "delivery_date": "2025-12-25",
+      "price_per_unit": 15.0,
+      "note": "Gift order"
+    }
+  ],
+  "invalid_orders": [
+    {
+      "product_id": "",
+      "quantity": 10,
+      "delivery_date": "2025-02-10",
+      "price_per_unit": 20.5
+    },
+    {
+      "product_id": 123,
+      "quantity": -5,
+      "delivery_date": "2025-02-10",
+      "price_per_unit": 20.5
+    },
+    {
+      "product_id": 123,
+      "quantity": 10,
+      "delivery_date": "2025/02/10",
+      "price_per_unit": 20.5
+    },
+    {
+      "product_id": 123,
+      "quantity": 10,
+      "delivery_date": "2025-02-10",
+      "price_per_unit": -1.0
+    },
+    {
+      "product_id": 123,
+      "quantity": 0,
+      "delivery_date": "2025-02-10",
+      "price_per_unit": 20.5
+    }
+  ]
+}
