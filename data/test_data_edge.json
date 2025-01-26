@@ -1,0 +1,22 @@
+{
+  "edge_orders": [
+    {
+      "product_id": 123,
+      "quantity": 2147483647,
+      "delivery_date": "2025-02-10",
+      "price_per_unit": 20.5
+    },
+    {
+      "product_id": 123,
+      "quantity": 1,
+      "delivery_date": "2025-02-29",
+      "price_per_unit": 0.01
+    },
+    {
+      "product_id": 123,
+      "quantity": 10,
+      "delivery_date": "2025-12-31",
+      "price_per_unit": 100000.0
+    }
+  ]
+}

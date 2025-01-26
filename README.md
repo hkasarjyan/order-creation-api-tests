@@ -39,10 +39,32 @@ set API_TOKEN=huw515Aue5eU
 Alternatively, you can directly set the token in the config/config.py file (not recommended for security reasons).
 
 ## Running Tests
-### Basic Test Execution
-Run all tests using:
+### Run All Tests
+To run all test files in the framework:
 ```
 pytest
+```
+
+### Run a Specific Test File
+To run tests for positive cases:
+
+```
+pytest tests/test_positive_cases.py
+```
+To run tests for negative cases:
+```
+pytest tests/test_negative_cases.py
+```
+
+To run tests for edge cases:
+```
+pytest tests/test_edge_cases.py
+```
+Run a Specific Test Case
+
+To run a single test case, provide the test file and the specific test function:
+```
+pytest tests/test_positive_cases.py::test_valid_order_creation
 ```
 
 ## Allure Reporting
